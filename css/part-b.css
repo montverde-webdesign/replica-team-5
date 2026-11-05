@@ -1,3 +1,52 @@
-/* PART B styles. Owner: [first name]
-   Only style the things inside Part B of index.html.
-   Put your phone-size rules in a media query at the bottom of this file. */
+/* PART B styles. Owner: [odanyx ofarril] */
+body {
+  background-color: #fffaf0;
+  background-image: none;
+}
+
+.menu-heading {
+  color: #5b21b6;
+  text-align: center;
+}
+
+.menu-list {
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  list-style: none;
+  background-color: #ffffff;
+  background-image: none;
+  box-shadow: 0 6px 18px rgba(46, 16, 101, 0.35);
+}
+
+.menu-list li {
+  margin: 10px 0;
+  padding: 14px 18px;
+  border-left: 6px solid #f97316;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.menu-list li:nth-child(even) {
+  border-left-color: #2563eb;
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+.menu-list li:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 600px) {
+  .menu-list {
+    margin: 12px;
+  }
+
+  .menu-list li {
+    padding: 12px;
+  }
+}
