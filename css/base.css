@@ -3,3 +3,14 @@
    1. Paste the @import line from your style card right below this comment, before any other rule.
    2. Style body, headings (h1, h2, h3), img, and anything every part uses, like .button.
    Teammates: ask the Part A owner to add something here. Don't edit this file yourself. */
+   body {
+     display: flex;
+background-color: #2b2160;
+text-color: #ffb703;
+   
+   }
+h1 {
+     font-family: "Fredoka", sans-serif;
+     color: #ffb703;
+
+   }

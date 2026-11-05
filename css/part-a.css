@@ -1,9 +1,39 @@
 * PART A styles. Owner: [first name]
    Only style the things inside Part A of index.html.
    Put your phone-size rules in a media query at the bottom of this file. */
-   ul{
+
+   h1 {
+     font-family: "Fredoka", sans-serif;
+     color: #fffb703;
+
+   }
+   p {
+     font-family: "Fredoka", sans-serif;
+     color: #eee9dd;
+   }
+   .button {
+     border: 2px solid #ffb703;
+      border-style:groove;
      display: flex;
-background-color: <div id="2b2160"></div>
-text-color: <div id="ffb703"></div>
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    border: 2px solid #ffb703;
+      font-family: "Fredoka", sans-serif;
+     color: #daaa29;
+
+   }
+ 
    
+   .logo-text {
+     font-family: "Fredoka", sans-serif;
+     color: #ffb703;
+     align-items: left;
+   }
+   .right-hand a {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 20px;
+     color: #ffb703;
    }
