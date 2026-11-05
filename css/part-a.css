@@ -1,3 +1,9 @@
-/* PART A styles. Owner: [first name]
+* PART A styles. Owner: [first name]
    Only style the things inside Part A of index.html.
    Put your phone-size rules in a media query at the bottom of this file. */
+   ul{
+     display: flex;
+background-color: <div id="2b2160"></div>
+text-color: <div id="ffb703"></div>
+   
+   }
